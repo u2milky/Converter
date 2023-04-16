@@ -1,0 +1,87 @@
+#forms {
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(10, 10, 58), 0 0 0.2em rgb(1, 1, 64);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+    width: 80%;
+    max-width: 600px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #4f24b3;
+}
+
+#numberA,
+#base {
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: #fff;
+    color: #4f24b3;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+#butt3 {
+    margin-top: 15px;
+}
+
+#butt1 {
+    margin-bottom: 15px;
+}
+
+#converted {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    #forms {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #forms {
+        font-size: 0.7em;
+    }
+}
+
+#numberA,
+#base {
+    font-size: 0.9em;
+}
+
+.button {
+    font-size: 0.9em;
+    padding: 8px 16;
+}
+
+
+button:hover {
+    transition: 0.3s;
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px #03fc7f;
+}
+
+button:active{
+    background: #03fc7f;
+    transition: visibility 0s 4s, opacity 4s linear;
+}
+
+#errorHandler{
+    color: red;
+    font-size:small;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
