@@ -43,11 +43,11 @@ const body = document.querySelector('body');
 
 // set the background color based on the time of day
 if (hour >= 6 && hour < 12) {
-    body.style.backgroundColor = '#4f24b3'; // morning
+    document.body.style.background = "url('morning.jpg')";
 } else if (hour >= 12 && hour < 18) {
-    body.style.backgroundColor = '#8d62f0'; // afternoon
+    document.body.style.background = "url('morning.jpg')";
 } else {
-    body.style.backgroundColor = '#1f055c'; // evening
+    document.body.style.background = "url('night.png')";
 }
 
 
